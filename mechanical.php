@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang=''>
+<head>
+<title>Mechanical/Excelsior-2015</title>
+<link rel="shortcut icon" href="images/nitin.ico" type="image/icon">
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="keywords" content="Excelsior, uiet, Kurukshetra, uiet  kuk, cultural, technical,Annual, competitions, online events, computing events, coding, Excelsior'15" />
+  	<meta name="description" content="Excelsior is the annual Techno-Cultural  festival of UIET KUK to be held from 22nd to 24th april 2015.." />
+  	<meta name="author" content="Excelsior, Designing team">
+  	<meta http-equiv="cache-control" content="public">
+  	<meta http-equiv="expires" CONTENT="Mon, 22 Mar 2015 11:12:01 GMT">
+  
+  	<meta property="og:title" content="Excelsior 2015" />
+  	<meta property="og:type" content="website" />
+  	<meta property="og:url" content="http://www.excelsioruiet.com/" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+  <script src="jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="css/popup.css">
+   <title>CSS MenuMaker</title>
+   <style type=text/css>
+    body,html{
+	background-image:url("images/mechanical.jpg");	
+	 background-attachment: fixed;
+	
+	margin-left:0px;}
+   #cssmenu
+   {
+   position:fixed;
+   top:0px;
+   width:1350px;
+   }
+    table
+	{
+   padding-top:150px;
+   
+   }
+  
+   
+   #nav{
+	float:left;
+	top:7px;
+	left:1200px;
+	  position:fixed;
+    	      
+}
+  th {
+         width:500px;
+         height:400px;
+		 padding-bottom: 50px;
+      }
+	td
+	{
+	width:700px;
+	height:400px;
+	font-size: 14px;
+    line-height: 24px;
+	font-size: 125%;
+	color:#000000;
+	padding-left:100px; 
+	padding-bottom: 50px;
+}
+	tk
+	{
+	color:#02bdaa ;
+	font-size: 130%;
+	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;}
+	h1
+	{
+	color:orange;
+	font-size: 200;}
+	table{
+	top:75px;}
+	.modalDialog > div{width:800px;}
+	
+   </style>
+   
+</head>
+<body>
+
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.php'><span>Home</span></a></li>
+   <li><a href='aboutus.php'><span>About</span></a></li>
+   <li class='active has-sub'><a href='#'><span>Events</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Technical Events</span></a>
+            <ul>
+               <li><a href='cse.php'><span>Computer Science</span></a></li>
+			   <li><a href='mechanical.php'><span>Mechanical</span></a></li>
+			   <li><a href='electronics.php'><span>Electronics</span></a></li>
+               <li class='last'><a href='bio.php'><span>Bio-Technology</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='cultural.php'><span>Cultural Events</span></a></li>
+		 <li class='has-sub'><a href='literary.php'><span>Literary Events</span></a></li>
+		 <li class='has-sub'><a href='featured.php'><span>General Events</span></a></li>
+	</ul>	 
+             <li class='active has-sub'><a href='gallery.php'><span>Gallery</span></a>
+               
+			 </li> 
+     <li><a href='registration.php'><span>Registration</span></a></li>
+	 <li><a href='sponsor.php'><span>Sponsors</span></a></li>
+     <li class='last'><a href='contactus.php'><span>Contact</span></a></li>
+</ul>
+</div>
+
+<table>
+  <tr>
+    <th><img src="images/bob.png" alt="Builder" height="340" width="500">
+</th>
+    
+    <td> <tk>BOB the Builder</tk><br>Mechanical is all about energy and conversion of energy from one form to another form. Here we present an event ‘Bob the Builder’ where one can show his/her innovative ideas with the given materials.
+	
+	 <br>
+	<button><a href="#popup" style="color:#fff; text-decoration:none;">See More</a></button>
+
+<div id="popup" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+	
+				<h3 style="color:#000;"><center>&#9733;Bob the Builder</center></h3>
+				<div style="color:#000;">
+					<p>Rules </p>
+					<div style="word-wrap: break-word;">
+					
+&#9733; Team specification:<br>
+<li>	A team may consist of maximum 4 members and minimum 2 members. Inter college teams may be formed.
+
+<li>Time limit:  45 minutes. 
+
+<pre>
+Material to be provided :
+<li>	Candle (1)           <li>	Thread (1)
+<li>	Balloon (2)          <li>	Dominos  ( 10 small 1 large)
+<li>	Card board (1)       <li>	A4 paper sheet (2)
+<li>	Marbles (3)          <li>	Table tennis balls (2)
+<li>	Disposal glasses (2)  <li>	Steel wire (1)        
+<li>	PVC pipe ( 50 cm )
+
+<li>Objective:
+&nbsp;&nbsp;&nbsp;&nbsp;With the given material the participant is required to make a contraption on the spot. Using the best possible mechanism and maximum energy conversion the participant has to put the TT ball in the disposal.
+<br>
+<li>Judging criteria:<br>
+1.	Maximum energy conversion
+2.	Maximum use of resources
+3.	Maximum time taken by the ball to reach the destination
+4.	Stability of the mechanism
+
+Example:<br>
+<center><img src=images/example.jpg><center>
+             
+
+</pre>
+ 
+
+
+
+					
+					</div>
+						
+						
+				
+					
+		</div>
+		
+	    </div>
+</div>
+	
+	
+	
+	</td>
+  </tr>
+  
+  
+  <tr>
+    <td> <tk>Dual Mobility Vehicle</tk><br>The essence of engineering lies in the solution of real world problems. Vehicle that can traverse multiple terrains are of interest and importance. In this event, participants are required to build a vehicle that can function in land and water.
+
+
+<button><a href="#popup2" style="color:#fff; text-decoration:none;">See More</a></button>
+
+<div id="popup2" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+	
+				<h3 style="color:#000;"><center>&#9733;Dual Mobility Vehicle</center></h3>
+				<div style="color:#000;">
+					<p></p>
+					<div>
+					<li>Problem statement: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;To build a remote controlled all-terrain vehicle that can move and steer on both land and water and is able to move from water to land and vice versa without any physical human involvement. <br>
+&#9734; Rules:
+<li>	A team may consist of at most 4 members.
+<li>	The vehicle should be enclosable in a box of size 40x30x30cm. The external remote control is not included in the size constraints.
+<li>	The power supply must be on board.
+<li>	There is no restriction on the number of batteries that can be used. Batteries can be swapped midway at the cost of 150 points.
+<li>	The machine must not be readymade.
+<li>	Only electric motors should be used for the propagation of the vehicle. The use IC engine is strictly prohibited.
+<li>	The potential difference between any two points must not exceed 24V.
+<li>	Each team will be given a first call 7 minutes prior their allocated time.
+<li>	The second call for a team will be 3 minutes prior their allocated time.
+<li>	 If the team fails to report to the arena at the second call, it will be disqualified.
+<li>The remote controls can be wired or wireless.
+
+
+<br>
+&#9734; Judging criteria:
+<li>	There will be a circuit round. The participants will be required to complete a lap of the given circuit in the shortest possible time.
+<li>	The scoring pattern will be:<br>
+&nbsp;&nbsp;&nbsp;1.	PT= 700-2x (total time taken in second)<br>
+&nbsp;&nbsp;&nbsp;2.	PO= 20x (no. of obstacles touched)<br>
+&nbsp;&nbsp;&nbsp;3.	PI= 10x (no. of human intervention)<br>
+<li>Final score = PT-PO-PI
+<li>	Rest of the rules will be explained on the spot.
+
+<li>Time Required :- 1 ½  day 
+<li>Track:
+<center><img src=images/track.png width=500 height=300></center>
+
+
+
+					
+					</div>
+						
+						
+				
+					
+		</div>
+		
+	    </div>
+</div>
+	
+
+
+
+	</td>
+    <th><img src="images/dual.png" alt="image" height="400" width="500"></th>
+  </tr>
+  
+  
+  <tr>
+    <th><img src="images/rm.jpg" alt="image" height="340" width="500">
+</th>
+    
+    <td> <tk>Robomania</tk><br>A robot is a machine that obeys any orders given to it by human beings. In robo mania two or more bots compete for the victory following certain rules without doing any causality. 
+ 
+  <br>
+
+	<button><a href="#popup3" style="color:#fff; text-decoration:none;">See More</a></button>
+
+<div id="popup3" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+	
+				<h3 style="color:#000;"><center>&#9733; RoboMania</center></h3>
+				<div style="color:#000;">
+					<p>Rules:</p>
+					<div>
+					
+<li>	A team may consist of at most five members. Inter-college teams may be formed.
+<li>	Each team will be given a first call 7 minutes prior their allocated time.
+<li>    The second call for a team will be 3 minutes prior their allocated time.
+<li>	 If the team fails to report to the arena at the second call, it will be disqualified.<br>
+&#9734;Bot specifications :
+<br>
+<b>	Dimensions :</b>.
+<li>	The bot should fit in box of dimension 75cmX75cmX100cm(lXbXh) at any time during the match. Any external device used to control the machine or any external tank is not included in the size constraints.
+<li>	The machine should exceed 40 kg of weight including the weight of pneumatic tank. Weight of wireless robots and robots having on board supply will counted as 0.7X actual weight. Weight of adaptors and the remote controllers will not be counted.
+<li>	The electric voltage between any two points on the robot must not exceed 36 volt at any time.
+<li>	The machine can be controlled using wired or wireless device throughout the fight. In case of any interference in wireless systems, no possibility of rematch exists. Further decisions will be taken by the authority on spot.
+<li>	Before the event, each bot will be inspected by the judges and the bot not satisfying the given conditions will be disqualified on the spot.
+
+<br>
+&#9734; Weapons system:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices, spinning hammer etc. as weapons with following exceptions and limitations.
+<li>	Liquid projectile
+<li>	Radio jamming, tesla coil, or any other high voltage devices.
+<li>	Any kind of explosive or intentionally ignited solid or potentially ignitable solid or liquid.
+	Flame based weapon.
+<li>	High power magnets or electro magnets.
+<li>	In no case should the arena be damaged by any bot.
+<li>Hydraulics and pneumatics may be used in the bot.
+<br>
+&#9734;Pneumatics:
+<li>	Robot can use pressurized non inflammable gases to actuate pneumatic devices.
+<li> Maximum allowed out let nozzle pressure is 6 bar.
+<li> The storage tank and pressure regulators used by team need to be certified and teams using pneumatics are required to produce the safety and security letters at the registration desk, Failing to do so may lead to direct disqualification.
+<li>	Participants must be able to indicate the used pressure with integrated or temporarily fitted pressure gauge.
+<br>
+&#9734; Hydraulics:
+<li>	Robot can use non inflammable liquid to actuate hydraulic devices eg. Cylinders, etc.
+<li>	All hydraulic liquids are required to be non corrosive and your device should be leak proof. Maximum allowed pressure is 8 bars. Participants must be able to indicate the used pressure with integrated or temporarily fitted pressure gauge.
+<br>
+&#9734; Safety rules:
+<li>	Special care should be taken to protect the on board batteries and pneumatics, robot without proper protection will not be allowed to compete.
+<li>	Each event has safety inspection as a builder you are obligated to disclose all operating principles and potential dangers to the inspection staff.
+<li>	All weapons must have a safety cover on any sharp edge.
+<li>	Special care must be taken of wires during the match. It is not allowed to cut opponent’s wire.
+<li>	Please take care to not hurt yourself or others when building, testing and competing.
+<br>
+&#9734; Judging criteria:
+<li>	A robot is declared victorious if its opponent is immobilized. A robot will be declared immobile if it cannot display linear motion of at least one inch in a time period of 30 sec.
+<li>	In case both the robots remain mobile after the end of the round than the winner will be decided subjectively.
+<li>	Points will be given on the basis of aggression, damage, control and strategy.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <center>&#9734; Arena<br>
+<img src=images/robotrack.png width=700><br><strong>The bots will compete in the green zone. Yellow zone is the starting point.</strong></center>
+<br>
+
+
+&#9734;Scoring criteria: <br>
+1)	Points will be given to the bot for pushing the opponent in red zone.<br>
+2)	Points will be given for making the opponent immobile for 10 sec.<br>
+3)	Extra points will be given for attacking strategy.<br>
+4)	The bot will be declared winner if it makes the opponent immobile for 30 sec.<br>
+
+
+					
+					</div>
+						
+						
+				
+					
+		</div>
+		
+	    </div>
+</div>
+  
+</table>
+<center><p class='copy'><strong>&copy Excelsior-2015</strong> </p></center>
+
+</body>
+<html>

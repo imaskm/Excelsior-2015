@@ -1,0 +1,3 @@
+<meta name='descripton ' content='About Fest of U.I.E.T. KUK' />
+  <meta name='author' content='Ashwani and Nitin'>
+  <meta char-set='UTF-8'>

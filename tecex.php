@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>Exhibitions|Excelsior-2015</title>
+<link rel="shortcut icon" href="images/nitin.ico" type="image/icon">
+<meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="keywords" content="Excelsior, uiet, Kurukshetra, uiet  kuk,2015,2k15, cultural, technical,Annual, competitions, online events, computing events, coding, Excelsior'15" />
+  	<meta name="description" content="Excelsior is the annual Techno-Cultural  festival of UIET KUK to be held from 22nd to 24th april 2015.." />
+  	<meta name="author" content="Excelsior, Designing team">
+  	<meta http-equiv="cache-control" content="public">
+  	<meta http-equiv="expires" CONTENT="Mon, 22 Mar 2015 11:12:01 GMT">
+  
+  	<meta property="og:title" content="Excelsior 2015" />
+  	<meta property="og:type" content="website" />
+  	<meta property="og:url" content="http://www.excelsioruiet.com/" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="css/popup.css">
+  <script src="jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+  	
+		<script src="js/modernizr.custom.js"></script>
+   <style type=text/css>
+   #cssmenu{position:fixed;
+   top:0px;
+   width:1350px;
+    z-index:100;
+   margin-left:0px;
+   }
+    body{
+	background:#fff;
+	margin-left:0px;
+padding-top:10px;
+}
+   .modalDialog > div
+   {
+    background:#345678;
+  color:#111;
+   font-family:font1;
+   }
+
+button{width:auto;}
+
+  
+  .butt{
+  position: fixed;
+   padding-top:200px;
+padding-left:1290px;
+ z-index: 30;
+
+}
+ 
+  .butt1{
+  position: fixed;
+   padding-top:200px;
+padding-left:5px;
+ z-index: 30;
+
+}
+			 @font-face {
+    font-family: font1;
+    src: url(fonts/corbeli.ttf);
+    font-weight: bold;
+} 
+   #nav{
+	float:left;
+	top:7px;
+	left:1200px;
+	  position:fixed;}
+
+    	      </style>
+</head>
+}
+<body>
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.php'><span>Home</span></a></li>
+   <li><a href='aboutus.php'><span>About</span></a></li>
+   <li class='active has-sub'><a href='#'><span>Events</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Technical Events</span></a>
+            <ul>
+               <li><a href='cse.php'><span>Computer Science</span></a></li>
+			   <li><a href='mechanical.php'><span>Mechanical</span></a></li>
+			   <li><a href='electronics.php'><span>Electronics</span></a></li>
+               <li class='last'><a href='bio.php'><span>Bio-Technology</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='cultural.php'><span>Cultural Events</span></a></li>
+
+		 <li class='has-sub'><a href='general.php'><span>General Events</span></a></li>
+<li class='has-sub'><a href='tecex.php'><span>Tech Exhibition</span></a></li>
+	</ul>	 
+             <li class='active has-sub'><a href='gallery.php'><span>Gallery</span></a></li>
+              
+     <li><a href='registration.php'><span>Registration</span></a></li>
+	 <li><a href='sponsor.php'><span>Sponsors</span></a></li>
+     <li class='last'><a href='contactus.php'><span>Contact</span></a></li>
+</ul>
+</div>
+<div class="butt">
+<button><a href="#popup3" style="color:#fff; text-decoration:none;">Details</a></button></div>
+<div class="butt1">
+<button><a href="http://goo.gl/h6PL0z" style="color:#fff; text-decoration:none;">Register</a></button></div>
+<div id="popup3" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+	
+				<h3 style="color:#000;"><center>Technical Exhibition<br></center></h3>
+				<div >
+					<p>We are surrounded by a multi-level convergent media world where all modes of communication and information are continually reforming to adapt the enduring demands of emerging technologies. Technical exhibition is another unique extravaganza that showcases the entire technological ecosystem. The event puts together a comprehensive an ideal platform for the budding engineers for upbringing innovation and design.</p>
+					<p>Rules:</p>
+					<ul>
+					<li>Either individual or group participation can be made.</li>
+					<li>A maximum of 3 participants per team would be entertained</li>
+					<li>Working models (either hardware or software projects) are only invited.</li>
+<li>The project/prototype besides being innovative must feature feasible design from electronics & communication, computer science, mechanical, instrumentation and biotechnology disciplines.</li>
+<li>All accessories required for the project setup ought to be arranged by the respective participants</li>
+<li>A certificate of participation would be issued to all the participants.</li>
+<li>The project would be adjudged on the basis of its design, creativity, application, feasibility, scope and the presentation delivered.</li>
+<li>Cash prize and a certificate of appreciation would be given away to the winners.</li>
+<li>All participants are requested to arrive in time (i.e. till 9:00 a.m.).</li>
+<li>The participant must setup the project by 9:30 a.m.</li>
+<li>You have to register here by April 20th 2015: http://goo.gl/h6PL0z</li>
+</ul>
+					
+	</div>
+				</div>
+		
+	    </div>
+<center><img src="images/tech.jpg" width='1350' height='760'></center>
+
+</body>
+</html>

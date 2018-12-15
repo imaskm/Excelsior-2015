@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang=''>
+<head>
+<title>Excelsior-2015</title>
+<link rel="shortcut icon" href="images/nitin.ico" type="image/icon">
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="keywords" content="Excelsior, uiet, Kurukshetra, uiet  kuk, cultural, technical,Annual, competitions, online events, computing events, coding, Excelsior'15" />
+  	<meta name="description" content="Excelsior is the annual Techno-Cultural  festival of UIET KUK to be held from 22nd to 24th april 2015.." />
+  	<meta name="author" content="Excelsior, Designing team">
+  	<meta http-equiv="cache-control" content="public">
+  	<meta http-equiv="expires" CONTENT="Mon, 22 Mar 2015 11:12:01 GMT">
+  
+  	<meta property="og:title" content="Excelsior 2015" />
+  	<meta property="og:type" content="website" />
+  	<meta property="og:url" content="http://www.excelsioruiet.com/" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="css/popup.css">
+   <script src="jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="css/popup.css">
+  
+   <style type=text/css>
+   #cssmenu{position:fixed;
+   top:0px;
+   width:1350px;}
+    table{
+   padding-top:150px;
+   
+   }
+    body,html{margin-left:0px;}
+   body{background-image: url("images/bg.png");
+   background-attachment:fixed;
+   margin-top:30px;
+background-color:#789;
+
+   }
+  
+   
+   #nav{
+	float:left;
+	top:7px;
+	left:1200px;
+	  position:fixed;
+    	      
+}
+th {
+ width:500px;
+ height:400px;  padding-bottom: 50px;
+ }
+	td{
+	width:700px;
+	height:400px;
+	font-size: 14px;
+    line-height: 24px;
+	font-size: 125%;
+	font-family:font3;
+	color:#ddd;
+	padding-left:100px;
+	  padding-bottom: 50px;
+}
+	tk
+	{
+	color:#eee ;
+	font-size: 130%;
+	 font-family:font2;
+    font-weight: 300;}
+	h1
+	{
+	color:orange;
+	font-size: 200;}
+	table{
+	top:75px;}
+	 @font-face {
+    font-family: font1;
+    src: url(fonts/corbeli.ttf);
+    font-weight: bold;
+}
+ @font-face {
+    font-family: font2;
+    src: url(fonts/Logostile.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/Opificio_neue-regular.ttf);
+    font-weight: bold;
+}
+.modalDialog > div
+{
+background:#345678;
+color:#111;
+font-family:font1;
+}
+button{width:auto;}
+   </style>
+   
+</head>
+<body>
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.php'><span>Home</span></a></li>
+   <li><a href='aboutus.php'><span>About</span></a></li>
+   <li class='active has-sub'><a href='#'><span>Events</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Technical Events</span></a>
+            <ul>
+               <li><a href='cse.php'><span>Computer Science</span></a></li>
+			   <li><a href='mechanical.php'><span>Mechanical</span></a></li>
+			   <li><a href='electronics.php'><span>Electronics</span></a></li>
+               <li class='last'><a href='bio.php'><span>Bio-Technology</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='cultural.php'><span>Cultural Events</span></a></li>
+		 <li class='has-sub'><a href='literary.php'><span>Literary Events</span></a></li>
+		 <li class='has-sub'><a href='featured.php'><span>General Events</span></a></li>
+	</ul>	 
+             <li class='active has-sub'><a href='gallery.php'><span>Gallery</span></a>
+
+			 </li> 
+     <li><a href='registration.php'><span>Registration</span></a></li>
+	 <li><a href='sponsor.php'><span>Sponsors</span></a></li>
+     <li class='last'><a href='contactus.php'><span>Contact</span></a></li>
+</ul>
+</div>
+
+<table>
+  <tr>
+    <th><img src="images/biospell.png" alt="image" height="400" width="600"></th>
+    <td>
+	<tk>Spell-Bio</tk><br>Pit your skills at etymology,word-play and obviously spelling,against the best in the Biotechnology.
+   <br><br>
+	<button><a href="#popup" style="color:#fff; text-decoration:none;">See More</a></button>
+
+<div id="popup" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+	
+				<h3 style="color:#000;"><center>&#9733;Spell-Bio<br></center></h3>
+				
+				<div>Description : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+This event consists of two rounds:<br>
+1.	Jumble Up<br>
+2.	Cross-word <br>
+The things are very clear from the name itself but it is to be noted that everything will be related to biotechnology and the candidates shortlisted in first round will only be allowed for the second one. So come up with your knowledge so far. 
+
+	
+	
+
+<p>&#9734;Judging criteria:</p>
+<li>It is totally based on score achieved by the candidate.
+
+		</div>
+		
+	    </div>
+</div>
+
+</td>
+  
+  </tr>
+  <tr>
+    <td> <tk>My Paper and Poster</tk><br>Research Papers will be Presented by the students 
+	<br>
+	
+	<button><a href="#popup1" style="color:#fff; text-decoration:none;">See More</a></button>
+
+<div id="popup1" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+	
+				<h3 style="color:#000;"><center>&#9733;My Paper & Project<br></center></h3>
+				
+				<div>Description : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+The event is divided into 2 subgroups- <br>
+1. Project <br>
+2. Paper <br>
+<p>Project- The interested students will provide the abstract of their projects 1 week before the actual event. If their project will get selected then they would be informed by the coordinators and then they will have to represent their project and give its presentation. So basically the participants will be scrutinized before the actual event. </p>
+<p>
+Paper- In this the participants who are interested will provide their research abstract of at least 150 words. If their idea will get selected then they will be informed and then they have to bring their research papers at the day of the event and then they have to give its full description and explanation with the help of a presentation. </p>
+The best paper according to the judging panel will win. The major condition for participation in this event will be that the projects should be self-created. The projects should be technical and scientific. The participants must be well aware about their project working, theory and construction.
+
+
+	
+	
+
+<p>&#9734;Judging criteria:</p>
+The following parameters will be considered : <br>
+<li> Innovation 
+<li> Present ability 
+<li> Interactiveness 
+<li> Use of the project in present context 
+<li> Confidence
+
+
+		</div>
+		
+	    </div>
+</div>
+	
+	</td>
+    <th><img src="images/my_paper.jpg" alt="image" height="600" width="400"></th>
+  </tr>
+  <tr>
+    <th><img src="images/sur.jpg" alt="image" height="500" width="500"></th>
+    <td><tk>Surprise</tk><br> A Surprise event will be Organised 
+	
+	
+	<br>
+	
+	<button><a href="#popup2" style="color:#fff; text-decoration:none;">See More</a></button>
+
+<div id="popup2" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+	
+				<h3 style="color:#000;"><center>&#9733;Surprise<br></center></h3>
+				
+				<div>Description : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+It consists of two rounds:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 1.	Visualization<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 2.	Treasure Biotech<br> 
+
+
+	<p> <b>Visualization:</b> In this knowledge will be tested through     pictures depicting anything related to biotech. It is required to take care of the time given for answering correct answer. </p><br>
+
+              <p><b>Treasure Biotech :</b> For this candidates have to hunt for the required chemicals in a particular experiment given and come up in the least possible time. </p><br>
+             <b> Note:</b> Candidates qualifying first round will be allowed in second round. <br>
+
+	
+
+<p>&#9734;Judging criteria:</p><br>
+&nbsp;&nbsp;&nbsp;&nbsp;First round is based on the qualifying marks. The second round will be judged on the basis of time taken to hunt and the presence of all chemicals. 
+
+
+		</div>
+		
+	    </div>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</td>
+  </tr>
+
+</table>
+<center><p class='copy'><strong>&copy Excelsior-2015</strong> </p></center>
+<br>
+
+</body>
+<html>

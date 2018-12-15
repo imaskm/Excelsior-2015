@@ -1,0 +1,100 @@
+body{
+
+
+
+background-image:url(images/cu.jpg);
+ 
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+
+}
+
+p.head{
+
+ font-family:"segoe script";";   
+text-align: center;
+    
+font-size: 300%;
+  
+  color: #ffffff;
+  
+  text-decoration:none;
+
+}
+
+.member
+{
+     
+  text-align:left;
+    
+   font-size:150%;
+    
+   color: #dddddd;
+     
+  text-decoration:none;
+      
+ padding-left:20px;
+       
+      
+ }
+
+strong{
+    
+   font-size:200%;
+   
+    color:#555555;
+  
+    }
+
+
+.text{
+    
+ font-size:150%;
+   
+  color:#777;
+ 
+    float:right;
+
+}
+
+table
+{
+   
+   font-size:110%;
+   
+    color:#555555;
+
+}
+ p.copy {
+  
+  color: #eeeeee;
+  
+  font-size:80%;
+ 
+   }
+ 
+
+p.core{
+
+color:#000000;
+margin-left:10px;
+font-family:"forte";
+font-size:200%;
+text-decoration:underline;
+}
+@font-face {
+    font-family: font;
+    src: url(fonts/AdobeDevanagari-Italic.otf);
+    font-weight: bold;
+}
+.footer
+{
+  width:1368px;
+  height:50px;
+  background-color:#012;
+  color:#ddd;
+   text-decoration:none;
+  font-family:font;
+}
