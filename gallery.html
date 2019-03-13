@@ -38,6 +38,16 @@
 		else {
 			div.style.display = "block";
 		}
+
+    var divextend = document.getElementById("templatemo-hex-top2div");
+    if (divextend.style.display !== "none")
+    {
+      divextend.style.display = "none";
+    }
+    else {
+      divextend.style.display = "block";
+    }
+
     }
   	</script>
 
@@ -96,31 +106,28 @@ th {
 
 <div id='cssmenu' style="z-index:999">
 <ul>
-   <li><a href='index.php'><span>Home</span></a></li>
-   <li><a href='aboutus.php'><span>About</span></a></li>
+   <li><a href='index.html'><span>Home</span></a></li>
+   <li><a href='aboutus.html'><span>About</span></a></li>
    <li class='active has-sub'><a href='#'><span>Events</span></a>
       <ul>
          <li class='has-sub'><a href='#'><span>Technical Events</span></a>
             <ul>
-               <li><a href='cse.php'><span>Computer Science</span></a></li>
-			   <li><a href='mechanical.php'><span>Mechanical</span></a></li>
-			   <li><a href='electronics.php'><span>Electronics</span></a></li>
-               <li class='last'><a href='bio.php'><span>Bio-Technology</span></a></li>
+               <li><a href='cse.html'><span>Computer Science</span></a></li>
+			   <li><a href='mechanical.html'><span>Mechanical</span></a></li>
+			   <li><a href='electronics.html'><span>Electronics</span></a></li>
+               <li class='last'><a href='bio.html'><span>Bio-Technology</span></a></li>
             </ul>
          </li>
-         <li class='has-sub'><a href='cultural.php'><span>Cultural Events</span></a></li>
-		 <li class='has-sub'><a href='literary.php'><span>Literary Events</span></a></li>
-		 <li class='has-sub'><a href='featured.php'><span>Featured Events</span></a></li>
+         <li class='has-sub'><a href='cultural.html'><span>Cultural Events</span></a></li>
+		 <li class='has-sub'><a href='literary.html'><span>Literary Events</span></a></li>
+		 <li class='has-sub'><a href='featured.html'><span>General Events</span></a></li>
 	</ul>	 
-             <li class='active has-sub'><a href='#'><span>Gallery</span></a>
-               <ul>
-                  <li><a href='excelsior-2015.php'><span>Excelsior-2015</span></a></li>
-                  <li class='last'><a href='excelsior-2012.php'><span>Excelsior-2012</span></a></li>
-               </ul> 
+             <li class='active has-sub'><a href='gallery.html'><span>Gallery</span></a>
+               
 			 </li> 
-     <li><a href='registration.php'><span>Registration</span></a></li>
-	  <li><a href='sponsor.php'><span>Sponsors</span></a></li>
-     <li class='last'><a href='contactus.php'><span>Contact</span></a></li>
+     <li><a href='registration.html'><span>Registration</span></a></li>
+	  <li><a href='sponsor.html'><span>Sponsors</span></a></li>
+     <li class='last'><a href='contactus.html'><span>Contact</span></a></li>
 </ul>
 </div>
 
@@ -198,7 +205,8 @@ th {
             </div>
           </div>
         </div>
-    </div> <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+    </div>
+  	     <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -211,7 +219,6 @@ th {
           </div>
         </div>
     </div>
-  	    
      <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
     	<div>
           <div class="hexagon hexagon2 gallery-item">
@@ -359,6 +366,7 @@ th {
           </div>
         </div>
       </div>
+      
       <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
       	<div>
           <div class="hexagon hexagon2 gallery-item">
@@ -372,12 +380,140 @@ th {
           </div>
         </div>
       </div>
-      
-    </div>
-  	</div>
-  
-   
+    	</div>
+
+
 	</div>
+
+  <div  id="templatemo-hex-top2div" style="display:none;" class="container answer_list templatemo_gallerytop">
+      <div class="row templatemorow">
+      
+      <div class="hex col-sm-6">
+      <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/20.jpg);">
+                <div class="overlay">
+            <a href="images/gallery/20.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6">
+      <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/21.jpg);">
+                <div class="overlay">
+            <a href="images/gallery/21.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top2">
+      <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/22.jpg);">
+                <div class="overlay">
+            <a href="images/gallery/22.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top3">
+      <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/23.jpg);">
+                <div class="overlay">
+            <a href="images/gallery/23.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top3">
+      <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/24.jpg);">
+                  <div class="overlay">
+            <a href="images/gallery/24.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+        
+ <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+      <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/25.jpg);">
+                  <div class="overlay">
+            <a href="images/gallery/25.jpg" data-rel="lightbox"   class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+     <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+      <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/26.jpg);">
+                  <div class="overlay">
+            <a href="images/gallery/26.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+        <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/27.jpg);">
+                  <div class="overlay">
+            <a href="images/gallery/27.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+        <div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/28.jpg);">
+                  <div class="overlay">
+            <a href="images/gallery/28.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+           
+      </div>
+  </div>
+
+
     <div class="container">
     	<div class="row">
         	<div class="templatemo_loadmore">
@@ -397,14 +533,14 @@ th {
                                <div class="hexagon-in1">
                                 <div class="hexagon-in2" style="background-image: url(images/team/1.jpg);">
                                 <div class="overlay templatemo_overlay1">
-                                	<a href="#">
+                                	<a href="www.facebook.com">
                                    	 <div class="smallhexagon">
                                   	 	 <span class="fa fa-facebook"></span>
                                  	  </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay2">
-                                	<a href="#">
+                                	<a href="www.twitter.com">
                                    	 <div class="smallhexagon">
                                   	 	 <span class="fa fa-twitter"></span>
                                  	  </div>
@@ -736,20 +872,17 @@ th {
     </div>
     <!-- service end -->
     <!-- contact start -->
-    <div class="content contact" id="menu-5">
-    <div class="container">
+    <div  id="menu-5">
+    <div class="container" style="width: 100%">
      	<div class="row">
         	<div class="col-md-4 col-sm-12">
-            	<div class="templatemo_contactmap">
-    			<div id="templatemo_map"></div>
-                <img src="images/templatemo_contactiframe.png" alt="contact map">
-                </div>
+            	
                 </div>
           <!--   <div class="col-md-3 col-sm-12 leftalign">
             	<div class="templatemo_contacttitle">Contact Information</div>
                 <div class="clear"></div>
                 <p>Integer eu neque sed mi fringilla pellentesque a eget leo. Duis ornare diam lorem, sit amet tempor mauris fringilla in. Etiam semper tempus augue, at vehicula metus. Nam vestibulum tortor nec congue ornare.</p>
-                <div class="templatemo_address">
+                <div class="templatemo_address">f
                 	<ul>
                 	<li class="left fa fa-map-marker"></li>
                     <li class="right">Nulla ut tellus, sit amet urna, <br>scelerisque pretium 10560</li>
@@ -788,31 +921,32 @@ th {
     
 	<!-- footer start -->
     <div class="templatemo_footer">
-    	<div class="container">
-    	<div class="row">
-        	<div class="col-md-9 col-sm-12">Copyright &copy; 2015  UIET KUK | 
-            <!--  Photos by <a rel="nofollow" href="http://uietorg.com">Rajat</a>    --></div>
+      <div class="container">
+      <div class="row">
+          <div class="col-md-9 col-sm-12"> &copy; Excelsior 2015  
+           </div>
             <div class="col-md-3 col-sm-12 templatemo_rfooter">
-            	  <a href="#">
-                 	<div class="hex_footer">
-					<span class="fa fa-facebook"></span>
-					</div>
+                <a href="https://www.facebook.com/excelsior.uiet" target=_blank>
+                  <div class="hex_footer">
+          <span class="fa fa-facebook"></span>
+          </div>
                   </a>
-                  <a href="#">
+                  <a href="https://www.twitter.com/excelsior_uiet" target=_blank>
                     <div class="hex_footer">
-					 <span class="fa fa-twitter"></span>
-					</div>
+           <span class="fa fa-twitter"></span>
+          </div>
                     </a>
-           <!--        <a href="#">
-                 	<div class="hex_footer">
-					 <span class="fa fa-linkedin"></span>
-					</div>
+                  <a href="https://www.instagram.com/excelsior.uietkuk" target=_blank>
+                  <div class="hex_footer">
+           <span class="fa fa-instagram"></span>
+          </div>
                  </a>
-                <a href="#">
-                	<div class="hex_footer">
-					 <span class="fa fa-rss"></span>
-					</div>
-                </a>     -->
+				 <a href="https://www.youtube.com/channel/UC-Fh2ulGxbrv1uqeOY62m2A" target=_blank>
+                    <div class="hex_footer">
+           <span class="fa fa-youtube"></span>
+          </div>
+                    </a>
+                
             </div>
         </div>
         </div>
